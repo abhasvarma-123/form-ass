@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Submitting</title>
-    <link rel="stylesheet" href="../css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Submitting</title>
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-    <div class="form-section">
-        <h1>Submit a Form</h1>
-        <form method="post" action="" onsubmit="return checkDetails()" class="form-body">
-            <label for="">Name: </label>
-            <input type="text" name="" id="Name">
-    
-            <label for="">Phone Number: </label>
-            <input type="number" name="" id="PhnNum">
-    
-            <label for="">Email: </label>
-            <input type="email" name="" id="mailid">
-    
-            <label for="">Location: </label>
-            <input type="text" name="" id="loc">
+<div class="form-section">
+    <h1>Submit a Form</h1>
+    <form id="formbody" class="form-body">
+        <label>Name:</label>
+        <input type="text" id="Name">
 
-            <button class="submitbtn" type="submit">Submit</button>
-        </form>
-        <p id="warning"><br></p>
-    </div>
+        <label>Phone Number:</label>
+        <input type="number" id="PhnNum">
 
-    <script src="./js/scripts.js"></script>
-    
+        <label>Email:</label>
+        <input type="email" id="mailid">
+
+        <label>Location:</label>
+        <input type="text" id="loc">
+
+        <button class="submitbtn" type="button" onclick="checkDetails()">Submit</button>
+    </form>
+    <p id="warning"><br></p>
+</div>
+
+<script src="../js/script.js"></script>
 </body>
 </html>
