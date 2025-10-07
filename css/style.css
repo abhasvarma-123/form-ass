@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main form container */
+.form-section {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 40px 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Title */
+.form-section h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Labels */
+.form-body label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #f1f1f1;
+    font-weight: 600;
+}
+
+/* Input fields */
+.form-body input,
+.form-body textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.85);
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.form-body input:focus,
+.form-body textarea:focus {
+    box-shadow: 0 0 6px #4ca1af;
+    background-color: #ffffff;
+}
+
+/* Submit button */
+.submitbtn {
+    margin-top: 20px;
+    width: 100%;
+    background: linear-gradient(135deg, #4ca1af, #2c3e50);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submitbtn:hover {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Warning message */
+#warning {
+    text-align: center;
+    color: #ff4b5c;
+    font-weight: bold;
+    margin-top: 15px;
+}
