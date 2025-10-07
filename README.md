@@ -4,11 +4,9 @@ A simple web form that collects user details (Name, Phone, Email, Location) with
 
 
 HTML: Creates the structure of the form using input fields and labels.
-
-      Provides a clean layout for user interaction.
+Provides a clean layout for user interaction.
 
 CSS:  Styles the form with modern design, colors, and responsive layout.
 
 JavaScript: Validates user inputs before submission.
-
-            Shows success or warning messages dynamically.
+Shows success or warning messages dynamically.
